@@ -1,15 +1,15 @@
-name: innovation_week15_team_device_9
-description: 第9组创新实验第15周 - 团队协作与Android真机运行
+name: group_flutter_android_demo
+description: "A Flutter Android real-device teamwork demo."
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
   sdk: ">=3.7.0 <4.0.0"
-  flutter: ">=3.29.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:

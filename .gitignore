@@ -1,89 +1,45 @@
-# Flutter build artifacts
-build/
-*.dart.js
-*.dart.js.map
-*.dart.js.deps
-*.dart.js.target
-*.dart.bootstrap.js
-*.dart.bootstrap.js.map
-*.dart.bootstrap.js.deps
-*.dart.bootstrap.js.target
-
-# Android
-*.apk
-*.ap_
-*.dex
+# Miscellaneous
 *.class
-*.jar
 *.log
-.gradle/
-local.properties
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
 *.iml
+*.ipr
+*.iws
 .idea/
-*.swp
-*.swo
-.DS_Store
-*.versionsbackup
 
-# iOS
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-xcuserdata/
-*.xccheckout
-*.moved-aside
-DerivedData/
-*.hmap
-*.ipa
-*.xcuserstate
-Pods/
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# Web
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
 .pub/
-.*.pubspec.lock
+/build/
+/coverage/
 
-# Windows
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.vc.db
-*.vc.opendb
-*.vc.cls
-*.VC.db
-*.VC.opendb
+# Symbolication related
+app.*.symbols
 
-# Linux
-*.kdev4
-.swp
-.swo
+# Obfuscation related
+app.*.map.json
 
-# macOS
-.DS_Store
-AppleDouble
-#Locks
-.document-id
-.DocumentRevisions-V100
-.FileSync
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.app
-.fseventsd
-.dbfseventsd
-各种缓存
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# 隐私文件
-images/android-real-device.jpg
-!.gitkeep
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
