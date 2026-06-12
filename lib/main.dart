@@ -46,7 +46,7 @@ class TeamDeviceHomePage extends StatelessWidget {
     'adb devices 能看到设备且状态为 device',
     'flutter devices 能识别到 Android 设备',
     'flutter run 能成功安装并运行到真机',
-    '运行设备型号：请填写实际型号',
+    '运行设备型号：V2509A',
   ];
 
   /// 组员 D 修改区域：证据规则和 README 说明
