@@ -82,13 +82,13 @@ flutter run -d 设备ID
 
 | 检查项 | 要求 | 状态 |
 | --- | --- | --- |
-| 手机开发者模式 | 已开启 USB 调试 | ☐ |
-| USB 连接 | 手机已通过数据线连接电脑 | ☐ |
-| 手机授权 | 弹出"是否允许 USB 调试"时点击"允许" | ☐ |
-| Flutter 环境 | `flutter doctor` 无报错 | ☐ |
-| 依赖完整 | `flutter pub get` 已执行成功 | ☐ |
-| 设备识别 | `flutter devices` 能看到你的手机 | ☐ |
-| 应用运行 | `flutter run` 能成功安装并启动 App | ☐ |
+| 手机开发者模式 | 已开启 USB 调试 | √ |
+| USB 连接 | 手机已通过数据线连接电脑 | √ |
+| 手机授权 | 弹出"是否允许 USB 调试"时点击"允许" | √ |
+| Flutter 环境 | `flutter doctor` 无报错 | √ |
+| 依赖完整 | `flutter pub get` 已执行成功 | √ |
+| 设备识别 | `flutter devices` 能看到你的手机 | √ |
+| 应用运行 | `flutter run` 能成功安装并启动 App | √ |
 
 连接手机后先检查：
 
