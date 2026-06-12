@@ -24,31 +24,41 @@ class InnovationTeamDeviceApp extends StatelessWidget {
 class TeamDeviceHomePage extends StatelessWidget {
   const TeamDeviceHomePage({super.key});
 
-  static const String groupName = '第九组 创新实验团队';
-  static const String projectTitle = 'Android 真机运行示例';
-  static const String projectSlogan = '探索智能前沿，创新驱动未来';
+  /// 组员 A 修改区域：应用标题、口号和小组成员名称
+  static const String groupName = '第9组 创新实验团队';
+  static const String projectTitle = 'Flutter Android 真机验收看板';
+  static const String projectSlogan = '用 GitHub 协作，把第14周个人 Hello World 升级成小组真机运行成果';
 
+  /// 组员 B 修改区域：团队成员信息与分工
   static const List<TeamMember> members = [
-    TeamMember(role: '组长', name: '请填写组长姓名', task: '创建原始仓库、维护 main、审核 PR、组织真机运行与证据提交'),
-    TeamMember(role: '组员 A', name: '请填写姓名', task: '修改 groupName、projectTitle、projectSlogan'),
-    TeamMember(role: '组员 B', name: '请填写姓名', task: '补全 members 中的成员姓名与分工'),
-    TeamMember(role: '组员 C', name: '请填写姓名', task: '补充 realDeviceChecks 中的真机运行检查项'),
-    TeamMember(role: '组员 D', name: '请填写姓名', task: '补充 evidenceRules，并把真机照片加入 README'),
+    TeamMember(role: '组长', name: '邓卓', task: '合并 PR、真机运行、创建仓库'),
+    TeamMember(role: '组员 A', name: '车赵阳', task: '修改标题、口号和小组名'),
+    TeamMember(role: '组员 B', name: '马敏楠', task: '补全成员信息与分工'),
+    TeamMember(role: '组员 C', name: '林世钒', task: '补充 Android 真机检查项'),
+    TeamMember(role: '组员 D', name: '谭正琪', task: '补充证据规则、README 照片说明'),
   ];
 
+  /// 组员 C 修改区域：真机运行检查项
   static const List<String> realDeviceChecks = [
     '主电脑能执行 flutter doctor，并识别 Android toolchain',
-    'Android 手机已打开开发者选项和 USB 调试',
-    'adb devices 显示设备状态为 device，而不是 unauthorized',
-    'flutter devices 能看到真实 Android 设备',
-    'flutter run 后手机屏幕显示本小组修改后的页面',
+    '数据线连接正常，手机显示为文件传输模式',
+    '手机已开启 USB 调试',
+    'adb devices 能看到设备且状态为 device',
+    'flutter devices 能识别到 Android 设备',
+    'flutter run 能成功安装并运行到真机',
+    '运行设备型号：请填写实际型号',
   ];
 
+  /// 组员 D 修改区域：证据规则和 README 说明
   static const List<String> evidenceRules = [
     '证据照片必须由第二部手机拍摄，不能用本机截图代替',
-    '照片中要看到手持真实 Android 手机和本应用页面',
-    'README 中要包含 GitHub 协作说明、PR 合并记录和真机照片',
-    '提交前检查照片不包含私人聊天、手机号、定位等隐私信息',
+    '照片中能看到手持 Android 手机',
+    'Android 手机屏幕显示本组 Flutter App',
+    '画面不要出现聊天记录、手机号、定位、身份证等隐私信息',
+    '文件名建议为 android-real-device.jpg',
+    '放入项目 images/ 目录',
+    '提交到 GitHub',
+    'README 中能显示这张照片',
   ];
 
   @override
