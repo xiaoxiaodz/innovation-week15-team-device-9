@@ -7,9 +7,9 @@
 | 角色 | 姓名 | 任务 | PR 链接 |
 | --- | --- | --- | --- |
 | 组长 | 邓卓 | 合并 PR、真机运行、创建仓库 | - |
-| 组员 A | 车赵阳 | 标题与口号 | - |
-| 组员 B | 马敏楠 | 成员信息与分工 | - |
-| 组员 C | 林世钒 | Android 真机检查项 | - |
+| 组员 A | 车赵阳 | 标题与口号 | https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/3 |
+| 组员 B | 马敏楠 | 成员信息与分工 | https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/4 |
+| 组员 C | 林世钒 | Android 真机检查项 | https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/2 |
 | 组员 D | 谭正琪 | 证据规则、README 照片说明 | - |
 
 ## 最终要提交什么
