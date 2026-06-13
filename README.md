@@ -7,10 +7,10 @@
 | 角色 | 姓名 | 任务 | PR 链接 |
 | --- | --- | --- | --- |
 | 组长 | 邓卓 | 合并 PR、真机运行、创建仓库 | - |
-| 组员 A | 车赵阳 | 标题与口号 | https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/3 |
-| 组员 B | 马敏楠 | 成员信息与分工 | https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/4 |
-| 组员 C | 林世钒 | Android 真机检查项 | https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/2 |
-| 组员 D | 谭正琪 | 证据规则、README 照片说明 | - |
+| 组员 A | 车赵阳 | 修改标题、口号和小组名 | [#3](https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/3) |
+| 组员 B | 马敏楠 | 补全成员信息与分工 | [#4](https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/4) |
+| 组员 C | 林世钒 | 补充 Android 真机检查项 | [#2](https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/2) |
+| 组员 D | 谭正琪 | 补充证据规则、README 照片说明 | [#5](https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/5), [#6](https://github.com/xiaoxiaodz/innovation-week15-team-device-9/pull/6) |
 
 ## 最终要提交什么
 
@@ -46,7 +46,17 @@
 
 组员不要直接 push 到组长仓库的 `main` 分支。
 
-## 小组分工建议
+## 小组实际分工
+
+| 角色 | 姓名 | 修改位置 | 实际完成任务 |
+| --- | --- | --- | --- |
+| 组长 | 邓卓 | GitHub 仓库 | 创建仓库、维护 `main`、审核 PR、解决冲突、配置 Gradle 镜像、组织真机运行 |
+| 组员 A | 车赵阳 | `lib/main.dart` | 修改 `groupName`、`projectTitle`、`projectSlogan` |
+| 组员 B | 马敏楠 | `lib/main.dart` | 补全 `members` 中的小组成员姓名与分工 |
+| 组员 C | 林世钒 | `lib/main.dart` | 补充 `realDeviceChecks` 中的真机检查项 |
+| 组员 D | 谭正琪 | `lib/main.dart` 和 `README.md` | 补充 `evidenceRules`，提交真机照片说明 |
+
+## 小组分工建议（原始任务分配）
 
 | 角色 | 修改位置 | 任务 |
 | --- | --- | --- |
